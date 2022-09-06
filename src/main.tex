@@ -1,8 +1,8 @@
 % Preamble
 \documentclass[11pt]{article}
-
+\usepackage{url}
 % Packages
-\usepackage[top=2.54cm, bottom=2.54cm, right=2.54cm, left=2.54cm]{geometry}
+\usepackage[top=0.5cm, bottom=1.5cm, right=1.5cm, left=1.5cm]{geometry}
 \usepackage{lipsum}
 \usepackage{graphicx}
 \usepackage{xcolor}
@@ -11,17 +11,18 @@
 
 \usepackage[pdfusetitle]{hyperref}
 
-\author{AUTHOR}
-\title{TEMPLATE}
-\date{\specialdate\today}
+\author{Joshua Springer}
+\title{IPIN Project Proposal}
+%\date{\specialdate\today}
+\date{}
 
 \begin{document}
     \maketitle
 
-    \section{Introduction}
-    \input{sections/introduction.tex}
+    \input{./sections/overview.tex}
 
-    \bibliography{main}
-    \bibliographystyle{plain}
+    \bibliography{references}
+%    \bibliographystyle{plain}
+    \bibliographystyle{IEEEtran}
 
 \end{document}
